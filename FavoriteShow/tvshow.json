@@ -1,0 +1,48 @@
+{
+  "title": "Firefly",
+  "seasons": 1,
+  "genre": ["Sci-fi", "Space western"],
+  "maincharacters": [
+    {
+      "name": "Nathan Fillion",
+      "age": 54,
+      "role": "Captain Malcolm 'Mal' Reynolds"
+    },
+    {
+      "name": "Alan Tudyk",
+      "age": 54,
+      "role": "Hoban 'Wash' Washburn"
+    },
+    {
+      "name": "Gina Torres",
+      "age": 46,
+      "role": "Zoe Washburne"
+    },
+        {
+      "name": "Morena Baccarin",
+      "age": 46,
+      "role": "Inara Serra"
+    },
+        {
+      "name": "Adam Baldwin",
+      "age": 63,
+      "role": "Jayne Cobb"
+    },
+        {
+      "name": "Jewel Staite",
+      "age": 43,
+      "role": "Kaylee Frye"
+    },
+        {
+      "name": "Summer Glau",
+      "age": 44,
+      "role": "River Tam"
+    },
+        {
+      "name": "Sean Maher",
+      "age": 50,
+      "role": "Dr. Simon Tam"
+    }
+  ],
+  "stillRunning": false
+}

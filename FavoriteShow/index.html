@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>TV Show Characters</title>
+    </head>
+    <body>
+        <h1>Main Characters</h1>
+        <ul id="characterList"></ul>
+        <script>
+            // Your code here
+            fetch("tvshow.json")
+            .then(response => response.json())
+            .then(actors => {
+                const characterList = document.querySelector("#characterList")
+
+                mainactors = actors.maincharacters
+
+                mainactors.forEach(element => {
+                    const name = element.name
+                    const age = element.age
+                    const role = element.role
+
+                    const formatedElement = "<li>" + name + "[" + age + "] - Role: " + role + "</>"
+                    
+                    characterList.innerHTML += formatedElement
+                });
+            })
+        </script>
+    </body>
+</html>

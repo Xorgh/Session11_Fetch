@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Handling Network Errors</title>
+    </head>
+    <body>
+        <p></p>
+        <script>
+            const paragraph = document.querySelector("p")
+            fetch("https://this-domain-does-not-exist.xyz/data.json") // Simulating a server not responding
+                .then(response => response.json())
+                .then(result => (paragraph.textContent = result))
+                .catch(error => {
+                    paragraph.textContent = "Something went wrong while contacting the server."
+                })
+        </script>
+    </body>
+</html>
